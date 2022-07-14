@@ -9,9 +9,11 @@ public class PosterManager {
     public PosterManager(int count) {
         this.count = count;
     }
-    public int getCount(){
+
+    public int getCount() {
         return count;
     }
+
     public void addPoster(PosterItem item) {
         PosterItem[] tmp = new PosterItem[items.length + 1];
         for (int i = 0; i < items.length; i++) {
@@ -36,8 +38,8 @@ public class PosterManager {
 
     public PosterItem[] findLast(PosterItem[] items, int count) {
         PosterItem[] tmp = new PosterItem[count];
-        for (int i= 0;i<count;i++){
-            tmp[i]=items[items.length-1-i];
+        for (int i = 0; i < count; i++) {
+            tmp[i] = items[items.length - 1 - i];
         }
 //
         return tmp;
