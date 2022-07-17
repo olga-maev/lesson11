@@ -39,7 +39,7 @@ public class PosterManagerTest {
         post.addPoster(item1);
         post.addPoster(item2);
         post.addPoster(item3);
-        PosterItem[] actual = post.findAll(post.getItems());
+        PosterItem[] actual = post.getItems();
 
         Assertions.assertArrayEquals(expected, actual);
     }

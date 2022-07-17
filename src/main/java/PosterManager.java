@@ -27,14 +27,14 @@ public class PosterManager {
         return items;
     }
 
-    public PosterItem[] findAll(PosterItem[] items) {
-        PosterItem[] tmp = new PosterItem[items.length];
-        for (int i = 0; i < items.length; i++) {
-            tmp[i] = items[i];
-        }
-
-        return tmp;
-    }
+//    public PosterItem[] findAll(PosterItem[] items) {
+//        PosterItem[] tmp = new PosterItem[items.length];
+//        for (int i = 0; i < items.length; i++) {
+//            tmp[i] = items[i];
+//        }
+//
+//        return tmp;
+//    }
 
     public PosterItem[] findLast(PosterItem[] items, int count) {
         PosterItem[] tmp = new PosterItem[count];
