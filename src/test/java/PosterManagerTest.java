@@ -57,7 +57,7 @@ public class PosterManagerTest {
         post.addPoster(item7);
         post.addPoster(item8);
         post.addPoster(item9);
-        PosterItem[] actual = post.findLast(post.getItems(), post.getCount());
+        PosterItem[] actual = post.findLast(post.getItems());
 
         Assertions.assertArrayEquals(expected, actual);
     }
@@ -76,7 +76,7 @@ public class PosterManagerTest {
         post.addPoster(item8);
         post.addPoster(item9);
         post.addPoster(item10);
-        PosterItem[] actual = post.findLast(post.getItems(), post.getCount());
+        PosterItem[] actual = post.findLast(post.getItems());
 
         Assertions.assertArrayEquals(expected, actual);
     }
