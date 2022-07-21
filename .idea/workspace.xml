@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84d5dfc-f785-4277-8072-ee87aa0390d2" name="Changes" comment="&quot;Error correction&quot;">
+    <list default="true" id="d84d5dfc-f785-4277-8072-ee87aa0390d2" name="Changes" comment="&quot;Correction findLast&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kurum/IdeaProjects/lesson13"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kurum/IdeaProjects/lesson10&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PosterManagerTest">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.souldAddLast2">
     <configuration name="PosterManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson11" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,10 +97,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PosterManagerTest" />
-        <item itemvalue="JUnit.PosterManagerTest.souldAddFind" />
         <item itemvalue="JUnit.PosterManagerTest.souldAddLast2" />
         <item itemvalue="JUnit.PosterManagerTest.souldAddLast1" />
+        <item itemvalue="JUnit.PosterManagerTest" />
+        <item itemvalue="JUnit.PosterManagerTest.souldAddFind" />
         <item itemvalue="JUnit.PosterManagerTest.souldAddLast" />
       </list>
     </recent_temporary>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658046623550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Correction findLast&quot;">
+      <created>1658164619354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658164619354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Format Code&quot;" />
     <MESSAGE value="&quot;Error correction&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Error correction&quot;" />
+    <MESSAGE value="&quot;Correction findLast&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correction findLast&quot;" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

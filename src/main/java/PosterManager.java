@@ -36,7 +36,7 @@ public class PosterManager {
 //        return tmp;
 //    }
 
-    public PosterItem[] findLast(PosterItem[] items) {
+    public PosterItem[] findLast() {
         int count = getCount();
         PosterItem[] tmp = new PosterItem[count];
         for (int i = 0; i < count; i++) {
